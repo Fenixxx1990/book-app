@@ -14,6 +14,7 @@ export class Search extends DivComponent {
 
   render() {
     this.el.classList.add("search");
+    console.log(this.state);
     this.el.innerHTML = `
       <div class="search__wrapper">
         <input type="text" placeholder="Найти книгу или автора...."
