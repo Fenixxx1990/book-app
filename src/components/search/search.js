@@ -17,7 +17,7 @@ export class Search extends DivComponent {
     this.el.innerHTML = `
       <div class="search__wrapper">
         <input type="text" placeholder="Найти книгу или автора...."
-        class="search__input
+        class="search__input"
         value="${this.state.searchQuery ? this.state.searchQuery : ""}"/>
         <img src="/static/search.png" alt="Поиск иконка" />
       </div>
